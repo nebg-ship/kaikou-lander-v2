@@ -22,6 +22,10 @@ All colors MUST be HSL.
     --primary: 152 25% 45%;
     --primary-foreground: 40 30% 98%;
 
+    /* Header green - teal/emerald for navigation */
+    --header: 162 65% 45%;
+    --header-foreground: 0 0% 100%;
+
     --secondary: 37 20% 88%;
     --secondary-foreground: 30 15% 20%;
 
@@ -69,6 +73,9 @@ All colors MUST be HSL.
 
     --primary: 152 30% 55%;
     --primary-foreground: 30 15% 12%;
+
+    --header: 162 65% 45%;
+    --header-foreground: 0 0% 100%;
 
     --secondary: 30 10% 22%;
     --secondary-foreground: 37 25% 95%;

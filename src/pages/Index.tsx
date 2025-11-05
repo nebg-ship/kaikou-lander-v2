@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import WhyKaikou from "@/components/WhyKaikou";
 import UniqueValue from "@/components/UniqueValue";
@@ -8,12 +9,15 @@ import Waitlist from "@/components/Waitlist";
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Hero />
-      <WhyKaikou />
-      <UniqueValue />
-      <YearPrograms />
-      <MonthlyThemes />
-      <Waitlist />
+      <Header />
+      <div className="pt-32">
+        <Hero />
+        <WhyKaikou />
+        <UniqueValue />
+        <YearPrograms />
+        <MonthlyThemes />
+        <Waitlist />
+      </div>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import { Search, Facebook, Instagram } from "lucide-react";
 import { useState } from "react";
-import logo from "@/assets/nebg-logo.png";
+import logo from "@/assets/nebg-logo-real.webp";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

@@ -8,39 +8,41 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Earthy, natural palette inspired by bonsai */
+    /* Brand colors: #033421 (dark green) and #E4710A (orange) */
     --background: 37 25% 95%;
-    --foreground: 30 15% 20%;
+    --foreground: 157 85% 9%;
 
     --card: 40 30% 97%;
-    --card-foreground: 30 15% 20%;
+    --card-foreground: 157 85% 9%;
 
     --popover: 40 30% 97%;
-    --popover-foreground: 30 15% 20%;
+    --popover-foreground: 157 85% 9%;
 
-    /* Sage green primary */
-    --primary: 152 25% 45%;
-    --primary-foreground: 40 30% 98%;
+    /* Main brand color - dark green #033421 */
+    --primary: 157 85% 11%;
+    --primary-foreground: 0 0% 100%;
 
-    /* Header green - teal/emerald for navigation */
-    --header: 162 65% 45%;
+    /* Header - dark green */
+    --header: 157 85% 11%;
     --header-foreground: 0 0% 100%;
 
-    --secondary: 37 20% 88%;
-    --secondary-foreground: 30 15% 20%;
+    /* Highlight color - orange #E4710A */
+    --secondary: 28 92% 47%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 37 20% 88%;
     --muted-foreground: 30 10% 45%;
 
-    --accent: 152 30% 85%;
-    --accent-foreground: 30 15% 20%;
+    /* Accent using lighter version of brand green */
+    --accent: 157 40% 85%;
+    --accent-foreground: 157 85% 11%;
 
     --destructive: 0 70% 50%;
     --destructive-foreground: 40 30% 98%;
 
     --border: 37 15% 85%;
     --input: 37 15% 85%;
-    --ring: 152 25% 45%;
+    --ring: 157 85% 11%;
 
     --radius: 0.75rem;
 
@@ -71,19 +73,21 @@ All colors MUST be HSL.
     --popover: 30 15% 15%;
     --popover-foreground: 37 25% 95%;
 
-    --primary: 152 30% 55%;
-    --primary-foreground: 30 15% 12%;
+    /* Lighter version of brand green for dark mode */
+    --primary: 157 60% 35%;
+    --primary-foreground: 0 0% 100%;
 
-    --header: 162 65% 45%;
+    --header: 157 85% 11%;
     --header-foreground: 0 0% 100%;
 
-    --secondary: 30 10% 22%;
-    --secondary-foreground: 37 25% 95%;
+    /* Orange highlight for dark mode */
+    --secondary: 28 92% 55%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 30 10% 22%;
     --muted-foreground: 37 15% 65%;
 
-    --accent: 152 25% 25%;
+    --accent: 157 40% 25%;
     --accent-foreground: 37 25% 95%;
 
     --destructive: 0 70% 50%;
@@ -91,7 +95,7 @@ All colors MUST be HSL.
 
     --border: 30 10% 22%;
     --input: 30 10% 22%;
-    --ring: 152 30% 55%;
+    --ring: 157 60% 35%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
